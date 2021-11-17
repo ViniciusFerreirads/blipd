@@ -1,0 +1,14 @@
+<script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+</script>
+<script>
+    (function () {
+        window.onload = function () {
+            new BlipChat()
+            .withAppKey('Y2FuYWlzZHV2aWRhczo0YjY5MWU4YS05ZmQzLTQ3ZjEtOWE4OS1hNTM3Zjc5ZWQzNzY=')
+            .withButton({"color":"#2CC3D5","icon":""})
+            .withCustomCommonUrl('https://chat.blip.ai/')
+            .build();
+        }
+    })();
+</script>
+                                
